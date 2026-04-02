@@ -7,6 +7,14 @@
   },
   "plugins": [
     {
+      "name": "tools",
+      "description": "Auto-configures the Decibel MCP server — 26 facade tools across 20 domains",
+      "source": {
+        "source": "github",
+        "repo": "decibelsystems/tools-plugin"
+      }
+    },
+    {
       "name": "homebase",
       "description": "Branch identity, conventions, and plugin protocol for the Decibel ecosystem",
       "source": {
